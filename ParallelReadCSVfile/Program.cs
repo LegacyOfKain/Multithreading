@@ -112,7 +112,10 @@ namespace ParallelReadCSVfile
                     
 
                     list.Add(i);
-                    // perform some complex actions
+                    // Below two methods are non cpu intensiv
+                    list.Average();
+                    list.Sum();
+                    // perform some complex actions - CPU intensive
                     // If you comment the below line the task becomes easy
                     // And normal foreach is as fast as parallel for each
                     FindPrimeNumber(Int32.Parse(s));
