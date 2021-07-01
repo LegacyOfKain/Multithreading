@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerCounter", "IntegerCounter\IntegerCounter.csproj", "{5B6155E3-89E2-4982-8082-CF542B75E64F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelReadCSVfile", "ParallelReadCSVfile\ParallelReadCSVfile.csproj", "{BB415A73-F004-4613-B8F2-6B809157A837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelReadCSVfile", "ParallelReadCSVfile\ParallelReadCSVfile.csproj", "{BB415A73-F004-4613-B8F2-6B809157A837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelCopyDeleteDirRecursiv", "ParallelCopyDeleteDirRecursiv\ParallelCopyDeleteDirRecursiv.csproj", "{2598A6FC-7EEC-4F96-A347-9C4EE1ACCFFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BB415A73-F004-4613-B8F2-6B809157A837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB415A73-F004-4613-B8F2-6B809157A837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB415A73-F004-4613-B8F2-6B809157A837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2598A6FC-7EEC-4F96-A347-9C4EE1ACCFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2598A6FC-7EEC-4F96-A347-9C4EE1ACCFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2598A6FC-7EEC-4F96-A347-9C4EE1ACCFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2598A6FC-7EEC-4F96-A347-9C4EE1ACCFFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
